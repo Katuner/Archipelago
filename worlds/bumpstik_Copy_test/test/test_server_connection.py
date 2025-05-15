@@ -1,6 +1,6 @@
-from . import BumpStikTestBase
+from . import BumpStikTestBaseCopy
 
-class TestServerConnection(BumpStikTestBase):
+class TestServerConnection(BumpStikTestBaseCopy):
     def test_successful_connection(self):
         """Testa conexão bem-sucedida ao servidor."""
         response = self.connect_to_server("localhost", 38281)

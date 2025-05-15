@@ -32,7 +32,7 @@ class BumpStikWorld(World):
         How long can you go without getting Jammed?
     """
 
-    game = "Bumper Stickers"
+    game = "Test Game"
     web = BumpStikWeb()
 
     item_name_to_id = item_table

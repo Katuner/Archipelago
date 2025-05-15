@@ -7,7 +7,7 @@ from BaseClasses import Location
 
 
 class BumpStikLocation(Location):
-    game = "Bumper Stickers"
+    game = "Test Game"
 
 
 offset = 595_000

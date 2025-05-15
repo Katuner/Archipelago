@@ -89,7 +89,7 @@ item_groups = {
 
 
 class BumpStikItem(Item):
-    game = "Bumper Stickers"
+    game = "Test Game"
     type: str
 
     def __init__(self, name, classification, code, player):

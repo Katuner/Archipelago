@@ -1,7 +1,7 @@
-from . import BumpStikTestBase
+from . import BumpStikTestBaseCopy
 
 
-class TestRuleLogic(BumpStikTestBase):
+class TestRuleLogic(BumpStikTestBaseCopy):
     def testLogic(self):
         for treasure_bumpers_held in range(1, 33):
             if treasure_bumpers_held == 32:
